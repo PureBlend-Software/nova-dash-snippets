@@ -1,0 +1,31 @@
+{
+    "identifier": "com.pureblendsoftware.dashsnippets",
+    "name": "Dash Snippets",
+    "organization": "PureBlend Software",
+    "description": "Surfaces your Dash snippet library as completions inside Nova. Read-only — Dash stays the single source of truth.",
+    "version": "1.0",
+    "categories": ["completions"],
+    "license": "MIT",
+    "main": "main.js",
+    "activationEvents": ["*"],
+    "entitlements": {
+        "process": true,
+        "filesystem": "readonly"
+    },
+    "config": [
+        {
+            "key": "com.pureblendsoftware.dashsnippets.libraryPath",
+            "title": "Dash snippet library",
+            "description": "Optional. Path to Dash's snippet database (opened read-only). Leave empty to auto-detect from Dash's own preferences, falling back to the standard Dash library location.",
+            "type": "path"
+        }
+    ],
+    "commands": {
+        "extensions": [
+            {
+                "title": "Dash Snippets: Reload Library",
+                "command": "com.pureblendsoftware.dashsnippets.reload"
+            }
+        ]
+    }
+}
