@@ -2,7 +2,7 @@
     "identifier": "com.pureblendsoftware.dashsnippets",
     "name": "Dash Snippets",
     "organization": "PureBlend Software",
-    "description": "Surfaces your Dash snippet library as completions inside Nova. Read-only — Dash stays the single source of truth.",
+    "description": "Surfaces your Dash snippet library as native Nova completions. Dash's own expansion simulates backspace keystrokes, which in Nova delete the newline before your abbreviation; this inserts through Nova's editor API instead, so nothing is backspaced. Read-only — Dash stays the single source of truth.",
     "version": "1.0",
     "categories": ["completions"],
     "license": "MIT",
