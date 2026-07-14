@@ -6,6 +6,8 @@
     "version": "1.0",
     "categories": ["completions"],
     "license": "MIT",
+    "repository": "https://github.com/PureBlend-Software/nova-dash-snippets",
+    "bugs": "https://github.com/PureBlend-Software/nova-dash-snippets/issues",
     "main": "main.js",
     "activationEvents": ["*"],
     "entitlements": {
